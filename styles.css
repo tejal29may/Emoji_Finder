@@ -36,10 +36,12 @@
     align-items: center;
     gap: 20px;
     border-radius: 10px;
+   
     /* justify-content: space-around; */
 }
 .emoji{
     font-size: 40px;
+   
 }
 .emoji:hover{
     transform: scale(1.5);
@@ -51,4 +53,8 @@
     align-items: center;
     /* border: 1px solid red; */
     /* width: 300px; */
+}
+.emojies{
+    /* margin-left: 50%; */
+    /* margin-right: 10%; */
 }

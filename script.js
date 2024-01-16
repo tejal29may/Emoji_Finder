@@ -6,14 +6,15 @@ let emoji=document.getElementById("emoji");
 
 function displayresult(search_value=""){
     let filtered_list=emojiList.filter((e)=>{
-        if(e.description.indexOf(search_value) != -1){
+        let ans=search_value.toLowerCase();
+        if(e.description.indexOf(ans) != -1){
             return true;
         }
-        if(e.tags.some((elem) => elem.startsWith(search_value))){
+        if(e.tags.some((elem) => elem.startsWith(ans))){
             return true;
         }
 
-        if(e.aliases.some((elem) => elem.startsWith(search_value))){
+        if(e.aliases.some((elem) => elem.startsWith(ans))){
             return true;
         }
     })
@@ -34,6 +35,7 @@ div.innerHTML=`
 
 
 `
+// if(is.toUpperCase(e.aliases) ||  )
 emoji.appendChild(div);
 });
 
@@ -47,5 +49,6 @@ emoji.appendChild(div);
 window.onload=()=>displayresult();
 input.addEventListener("keyup",()=>{
     let search_value=input.value;
+    // search_value.toLowerCase();
     displayresult(search_value);
 });

@@ -277,18 +277,18 @@ const emojiList = [
     , "unicode version": "6.1"
     , "ios version": "6.0"
     }
-  , {
-      "emoji": "🥲"
-    , "description": "smiling face with tear"
-    , "category": "Smileys & Emotion"
-    , "aliases": [
-        "smiling face with tear"
-      ]
-    , "tags": [
-      ]
-    , "unicode version": "13.0"
-    , "ios version": "14.0"
-    }
+  // , {
+  //     "emoji": "😢"
+  //   , "description": "smiling face with tear"
+  //   , "category": "Smileys & Emotion"
+  //   , "aliases": [
+  //       "smiling face with tear"
+  //     ]
+  //   , "tags": [
+  //     ]
+  //   , "unicode version": "13.0"
+  //   , "ios version": "14.0"
+  //   }
   , {
       "emoji": "😋"
     , "description": "face savoring food"
@@ -6673,7 +6673,7 @@ const emojiList = [
     , "ios version": "6.0"
     }
   , {
-      "emoji": "🫂"
+      "emoji": ""
     , "description": "people hugging"
     , "category": "People & Body"
     , "aliases": [
