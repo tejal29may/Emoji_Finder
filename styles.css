@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.emoji-card{
+    width: 150px;
+    height: 150px;
+    border: 2px solid blue;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 10px;
+   gap: 10px;
+   border-radius: 10px;
+   background-color: rgb(244, 204, 242);
+   /* justify-content: space-between; */
+
+}
+#search_fields{
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+}
+.alises{
+    font-size: 16px;
+    text-align: center;
+    font-family: cursive;
+}
+.emojies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    /* justify-content: space-around; */
+}
+.emoji{
+    font-size: 40px;
+}
+.emoji:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    /* width: 300px; */
+}
